@@ -1,1 +1,19 @@
 /* Add CSS Styling */
+
+button {
+    border: 3px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    size: 64px;
+
+}
+
+button.primary {
+    color: white;
+    background-color: black
+
+}
+button.secondary {
+    color: black;
+    background-color: yellow;
+
+}
