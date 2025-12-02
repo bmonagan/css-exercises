@@ -1,1 +1,19 @@
 /* Add CSS Styling */
+p {
+    color:black;
+    background-color:rgba(255, 0, 0, 0.3);
+    font-size: 25px;
+}
+p.cooler{
+    font-size: 35px;
+}
+.special {
+    color:blue;
+    font-size: 45px;
+}
+.unique {
+    background-color:rgba(43, 199, 43, 0.5);
+    font-size: 32px;
+    font-weight: bold;
+    
+}
