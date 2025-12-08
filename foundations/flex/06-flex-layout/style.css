@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  
 }
 
 img {
@@ -16,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  pad: 8px 16px;
 }
 
 input {
@@ -23,4 +27,58 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+a {
+  text-decoration: none;
+  color: rgb(49, 49, 49);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  background-color: hwb(0 84% 16%);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 48px 0;
+  height: 95vh;
+}
+.left-links{
+  color: rgb(49, 49, 49);
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-self: flex-start;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  
+}
+.right-links{
+  color: rgb(49, 49, 49);
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  
+  justify-self: flex-end;
+}
+links {
+  margin-left: auto;
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-end;
+  text-decoration: none;
 }
